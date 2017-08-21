@@ -5,6 +5,8 @@ require 'feature_helper'
 
 RSpec.feature 'twitter timeline' do
   scenario 'a user views a twitter timeline' do
+    pending
+    
     visit root_path
 
     within '[data-twitter-app]' do
